@@ -2,7 +2,7 @@
 
 Example [sksync](https://github.com/takemo101/sksync) bundle manifest.
 
-This repository contains a `sksync.bundle.json` at the repository root, so it can be installed directly from the GitHub tree URL.
+This repository contains a `sksync.bundle.json` at the repository root, so it can be installed directly from the GitHub tree URL. It also includes a local `sksync` helper skill that teaches agents how to find, add, remove, and audit Agent Skills with `sksync` and `npx skills find`.
 
 ## Inspect
 
@@ -27,5 +27,6 @@ sksync bundle add https://github.com/takemo101/sksync-bundle-example/tree/main -
 ## Notes
 
 - Bundle manifests do not choose agents. Pass `--agent` at install time.
-- This example is manifest-only: entries point to existing upstream skill sources.
+- Most entries point to existing upstream skill sources.
+- The `sksync` entry is local to this repository at `./skills/sksync`.
 - Many entries use `HEAD`, which tracks upstream changes. Pin refs to tags or commit SHAs when strict reproducibility matters.

@@ -60,6 +60,9 @@
     "review": {
       "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/in-progress/review"
     },
+    "sksync": {
+      "source": "./skills/sksync"
+    },
     "systematic-debugging": {
       "source": "https://github.com/obra/superpowers/tree/HEAD/skills/systematic-debugging"
     },
