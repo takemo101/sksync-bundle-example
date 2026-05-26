@@ -1,0 +1,106 @@
+{
+  "$schema": "https://raw.githubusercontent.com/takemo101/sksync/main/schemas/sksync.bundle.schema.json",
+  "name": "team-baseline",
+  "description": "Exported from sksync config.",
+  "entries": {
+    "agent-browser": {
+      "source": "https://github.com/vercel-labs/agent-browser/tree/HEAD/skills/agent-browser"
+    },
+    "brainstorming": {
+      "source": "https://github.com/obra/superpowers/tree/HEAD/skills/brainstorming"
+    },
+    "but": {
+      "source": "https://github.com/gitbutlerapp/gitbutler/tree/HEAD/crates/but/skill"
+    },
+    "caveman": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/caveman"
+    },
+    "design-an-interface": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/deprecated/design-an-interface"
+    },
+    "diagnose": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/diagnose"
+    },
+    "edit-article": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/personal/edit-article"
+    },
+    "executing-plans": {
+      "source": "https://github.com/obra/superpowers/tree/HEAD/skills/executing-plans"
+    },
+    "grill-me": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/grill-me"
+    },
+    "grill-with-docs": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/grill-with-docs"
+    },
+    "handoff": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/handoff"
+    },
+    "improve-codebase-architecture": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/improve-codebase-architecture"
+    },
+    "migrate-to-shoehorn": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/misc/migrate-to-shoehorn"
+    },
+    "prototype": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/prototype"
+    },
+    "qa": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/deprecated/qa"
+    },
+    "receiving-code-review": {
+      "source": "https://github.com/obra/superpowers/tree/HEAD/skills/receiving-code-review"
+    },
+    "request-refactor-plan": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/deprecated/request-refactor-plan"
+    },
+    "requesting-code-review": {
+      "source": "https://github.com/obra/superpowers/tree/HEAD/skills/requesting-code-review"
+    },
+    "review": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/in-progress/review"
+    },
+    "systematic-debugging": {
+      "source": "https://github.com/obra/superpowers/tree/HEAD/skills/systematic-debugging"
+    },
+    "tdd": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/tdd"
+    },
+    "test-driven-development": {
+      "source": "https://github.com/obra/superpowers/tree/HEAD/skills/test-driven-development"
+    },
+    "to-issues": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/to-issues"
+    },
+    "to-prd": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/to-prd"
+    },
+    "triage": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/triage"
+    },
+    "ubiquitous-language": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/deprecated/ubiquitous-language"
+    },
+    "write-a-skill": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/productivity/write-a-skill"
+    },
+    "writing-beats": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/in-progress/writing-beats"
+    },
+    "writing-fragments": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/in-progress/writing-fragments"
+    },
+    "writing-plans": {
+      "source": "https://github.com/obra/superpowers/tree/HEAD/skills/writing-plans"
+    },
+    "writing-shape": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/in-progress/writing-shape"
+    },
+    "writing-skills": {
+      "source": "https://github.com/obra/superpowers/tree/HEAD/skills/writing-skills"
+    },
+    "zoom-out": {
+      "source": "https://github.com/mattpocock/skills/tree/HEAD/skills/engineering/zoom-out"
+    }
+  }
+}
