@@ -1,6 +1,6 @@
 ---
 name: sksync
-description: Manage Agent Skills with sksync, including finding skills, adding them to target agents, removing them, and installing bundles. Use when the user asks to find, install, sync, remove, or audit Agent Skills across coding agents with sksync or skills.sh.
+description: Manage Agent Skills with sksync, including finding skills, adding them to target agents, attaching or detaching agents, removing skills, and installing bundles. Use when the user asks to find, install, sync, attach, detach, remove, or audit Agent Skills across coding agents with sksync or skills.sh.
 ---
 
 # sksync Skill Management
@@ -70,9 +70,29 @@ sksync bundle add <bundle-source> --agent <agent>
 
 Add `--global` for global installation.
 
+## Attach or detach agents
+
+Use `attach` when the skill already exists in sksync config and the user wants to enable it for another agent:
+
+```sh
+sksync attach <skill-name> --agent <agent>
+sksync attach <skill-name> --agent pi --agent claude-code
+```
+
+Use agent-scoped `remove` when the user wants to detach a skill from one agent while keeping the dependency for other agents:
+
+```sh
+sksync remove <skill-name> --agent <agent>
+sksync remove <skill-name> --agent pi --agent claude-code
+```
+
+Add `--global` when operating on global config.
+
 ## Remove skills
 
-Remove one skill explicitly:
+Before removing a skill, ask whether the user wants to detach it from one agent or remove the dependency entirely.
+
+Remove one dependency explicitly:
 
 ```sh
 sksync remove <skill-name>
@@ -85,7 +105,7 @@ sksync bundle remove <bundle-name> --dry-run
 sksync bundle remove <bundle-name>
 ```
 
-Use `sksync remove` when the user explicitly wants a specific skill gone regardless of bundle provenance.
+Use unscoped `sksync remove <skill-name>` only when the user explicitly wants a specific dependency gone regardless of bundle provenance.
 
 ## Safety rules
 
